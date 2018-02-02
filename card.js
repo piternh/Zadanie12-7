@@ -2,8 +2,8 @@
 function Card(id, name) {
 	var self = this;
 	
-	this.id = randomString();
-	this.name = description;
+	this.id = id;
+	this.name = name || 'No name given';
 	this.element = createCard();
 
 	function createCard() {
